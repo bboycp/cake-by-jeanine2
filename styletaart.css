@@ -1,0 +1,218 @@
+    /*====================
+Taarten page
+=====================
+*/
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .antiliaan-taart-container {
+        background: white;
+        height: 100%;
+    }
+    
+    .cat-img-antitaart {
+        grid-column: 2/-2;
+        width: 100%;
+        border-radius: 5px;
+        height: 200px;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: opacity ease 500ms;
+        margin-bottom: 2em;
+        padding: 20px 20px;
+        box-shadow: 0px 5px 10px 0px rgb(99, 98, 98);
+    }
+    
+    .taart-title {
+        font-family: Pacifico;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 100;
+        line-height: 1.3em;
+        margin-top: .5em;
+        background: linear-gradient(to right, rgb(129, 75, 39) 20%, #E29F6F 40%, #A85418 60%, #6B360F 80%, #A85418 60%, #E29F6F 40%, rgb(129, 75, 39) 20%);
+        background-size: 200% auto;
+        color: #000;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine 6s ease-in infinite;
+        grid-column: 2/-2;
+    }
+    
+    @keyframes shine {
+        to {
+            background-position: 90% center;
+        }
+    }
+    
+    .textbox-big {
+        background: white;
+        width: 100%;
+        height: 100%;
+        opacity: .6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .textbox-big h1 {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .textbox-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .textbox-big-ul-klein,
+    .textbox-big-ul-groot {
+        list-style: none;
+    }
+    /*===================
+        Antiliaanse taart
+    =====================*/
+    
+    .antiliaansetaart-select-section1 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ kashupete.jpg);
+    }
+    
+    .antiliaansetaart-select-section2 {
+        grid-column: 2/-2;
+        background-image: url(./img/chocolade\ taart.jpg);
+        background-position: top right;
+    }
+    
+    .antiliaansetaart-select-section3 {
+        grid-column: 2/-2;
+        background-image: url(./img/kokosnoot-taart.jpg);
+    }
+    
+    .antiliaansetaart-select-section4 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ manteka.jfif);
+    }
+    
+    .antiliaansetaart-select-section5 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolopretu_.jpg);
+        background-position: bottom left;
+    }
+    
+    .antiliaansetaart-select-section6 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ dadel.jpg);
+    }
+    
+    .antiliaansetaart-select-section7 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ preimu.jpg);
+    }
+    
+    .antiliaansetaart-select-section8 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ wortel.jpg);
+    }
+    
+    .antiliaansetaart-select-section9 {
+        grid-column: 2/-2;
+        background-image: url(./img/boli\ anasa.jpg);
+    }
+    /*===================
+        Gekoelde taart
+    =====================*/
+    
+    .gekoeldetaart-select-section1 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo-di-pistacho.jpg);
+    }
+    
+    .gekoeldetaart-select-section2 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ aardbei\ koel.jpg);
+    }
+    
+    .gekoeldetaart-select-section3 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ boracho.jpg);
+    }
+    
+    .gekoeldetaart-select-section4 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ chukulati\ koel.jpg);
+    }
+    
+    .gekoeldetaart-select-section5 {
+        grid-column: 2/-2;
+        background-image: url(./img/bolo\ di\ ponche\ crema.jpg);
+    }
+    
+    @media (min-width: 800px) {
+        .cat-container {
+            height: 100%;
+        }
+        .cat-img-antitaart {
+            height: 300px;
+        }
+        /*===================
+        Antiliaanse taart resp
+    =====================*/
+        .antiliaansetaart-select-section1 {
+            grid-column: 2/3;
+        }
+        .antiliaansetaart-select-section2 {
+            grid-column: 3/4;
+        }
+        .antiliaansetaart-select-section3 {
+            grid-column: 4/5;
+        }
+        .antiliaansetaart-select-section4 {
+            grid-column: 2/3;
+        }
+        .antiliaansetaart-select-section5 {
+            grid-column: 3/4;
+            background-position: bottom;
+        }
+        .antiliaansetaart-select-section6 {
+            grid-column: 4/5;
+        }
+        .antiliaansetaart-select-section7 {
+            grid-column: 2/3;
+        }
+        .antiliaansetaart-select-section8 {
+            grid-column: 3/4;
+        }
+        .antiliaansetaart-select-section9 {
+            grid-column: 4/5;
+        }
+        /*===================
+        Gekoelde taart resp
+    =====================*/
+        .gekoeldetaart-select-section1 {
+            grid-column: 2/3;
+            ;
+        }
+        .gekoeldetaart-select-section2 {
+            grid-column: 3/4;
+            ;
+        }
+        .gekoeldetaart-select-section3 {
+            grid-column: 4/5;
+            ;
+        }
+        .gekoeldetaart-select-section4 {
+            grid-column: 2/3;
+            ;
+        }
+        .gekoeldetaart-select-section5 {
+            grid-column: 3/4;
+        }
+        .gekoeldetaart-select-section6 {
+            grid-column: 4/5;
+        }
+    }
