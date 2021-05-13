@@ -79,49 +79,49 @@ Taarten page
     
     .antiliaansetaart-select-section1 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ kashupete.jpg);
+        background-image: url(./bolo\ di\ kashupete.jpg);
     }
     
     .antiliaansetaart-select-section2 {
         grid-column: 2/-2;
-        background-image: url(./img/chocolade\ taart.jpg);
+        background-image: url(./chocolade\ taart.jpg);
         background-position: top right;
     }
     
     .antiliaansetaart-select-section3 {
         grid-column: 2/-2;
-        background-image: url(./img/kokosnoot-taart.jpg);
+        background-image: url(./kokosnoot-taart.jpg);
     }
     
     .antiliaansetaart-select-section4 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ manteka.jfif);
+        background-image: url(./bolo\ di\ manteka.jfif);
     }
     
     .antiliaansetaart-select-section5 {
         grid-column: 2/-2;
-        background-image: url(./img/bolopretu_.jpg);
+        background-image: url(./bolopretu_.jpg);
         background-position: bottom left;
     }
     
     .antiliaansetaart-select-section6 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ dadel.jpg);
+        background-image: url(./bolo\ di\ dadel.jpg);
     }
     
     .antiliaansetaart-select-section7 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ preimu.jpg);
+        background-image: url(./bolo\ di\ preimu.jpg);
     }
     
     .antiliaansetaart-select-section8 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ wortel.jpg);
+        background-image: url(./bolo\ di\ wortel.jpg);
     }
     
     .antiliaansetaart-select-section9 {
         grid-column: 2/-2;
-        background-image: url(./img/boli\ anasa.jpg);
+        background-image: url(./boli\ anasa.jpg);
     }
     /*===================
         Gekoelde taart
@@ -129,27 +129,27 @@ Taarten page
     
     .gekoeldetaart-select-section1 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo-di-pistacho.jpg);
+        background-image: url(./bolo-di-pistacho.jpg);
     }
     
     .gekoeldetaart-select-section2 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ aardbei\ koel.jpg);
+        background-image: url(./bolo\ di\ aardbei\ koel.jpg);
     }
     
     .gekoeldetaart-select-section3 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ boracho.jpg);
+        background-image: url(./bolo\ di\ boracho.jpg);
     }
     
     .gekoeldetaart-select-section4 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ chukulati\ koel.jpg);
+        background-image: url(./bolo\ di\ chukulati\ koel.jpg);
     }
     
     .gekoeldetaart-select-section5 {
         grid-column: 2/-2;
-        background-image: url(./img/bolo\ di\ ponche\ crema.jpg);
+        background-image: url(./bolo\ di\ ponche\ crema.jpg);
     }
     
     @media (min-width: 800px) {
