@@ -84,7 +84,7 @@ Taarten page
     
     .antiliaansetaart-select-section2 {
         grid-column: 2/-2;
-        background-image: url(./chocolade taart.jpg);
+        background-image: url(./chocolade\ taart.jpg);
         background-position: top right;
     }
     
@@ -100,28 +100,28 @@ Taarten page
     
     .antiliaansetaart-select-section5 {
         grid-column: 2/-2;
-        background-image: url(.bolopretu_.jpg);
+        background-image: url(./bolopretu_.jpg);
         background-position: bottom left;
     }
     
     .antiliaansetaart-select-section6 {
         grid-column: 2/-2;
-        background-image: url(.bolo\ di\ dadel.jpg);
+        background-image: url(./bolo\ di\ dadel.jpg);
     }
     
     .antiliaansetaart-select-section7 {
         grid-column: 2/-2;
-        background-image: url(.bolo\ di\ preimu.jpg);
+        background-image: url(./bolo\ di\ preimu.jpg);
     }
     
     .antiliaansetaart-select-section8 {
         grid-column: 2/-2;
-        background-image: url(.bolo\ di\ wortel.jpg);
+        background-image: url(./bolo\ di\ wortel.jpg);
     }
     
     .antiliaansetaart-select-section9 {
         grid-column: 2/-2;
-        background-image: url(.boli\ anasa.jpg);
+        background-image: url(./boli\ anasa.jpg);
     }
     /*===================
         Gekoelde taart
