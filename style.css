@@ -493,6 +493,9 @@
      /*============
          header
     ==============*/
+      .header-container {
+         grid-column: 2/5;
+     }
      .open-nav,
      .close-nav {
          display: none;
