@@ -694,7 +694,7 @@
      }
      .main-grid {
          display: grid;
-         grid-template-columns: minmax(4em, 1fr) repeat(3, minmax(0px, 500px)) minmax(4em, 1fr);
+         grid-template-columns: minmax(4em, 1fr) repeat(3, minmax(0px, 400px)) minmax(4em, 1fr);
      }
      .main-grid2 {
          display: grid;
