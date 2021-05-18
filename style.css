@@ -492,7 +492,7 @@
      /*============
          header
     ==============*/
-     .header-container {
+     .container {
          grid-column: 2/5;
      }
      .open-nav,
